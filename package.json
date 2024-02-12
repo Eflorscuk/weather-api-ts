@@ -1,0 +1,41 @@
+{
+  "name": "weather-api-ts",
+  "version": "1.0.0",
+  "description": "Typescript node API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eflorscuk/weather-api-ts.git"
+  },
+  "keywords": [
+    "Typescript",
+    "node",
+    "js",
+    "api"
+  ],
+  "author": "Evandro Florscuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eflorscuk/weather-api-ts/issues"
+  },
+  "homepage": "https://github.com/Eflorscuk/weather-api-ts#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}

@@ -1,3 +1,5 @@
-declare let testRequest: import('supertest').SuperTest<
-    import('supertest').Test
->;
+declare global {
+    let testRequest: import('supertest').SuperTest<import('supertest').Test>;
+}
+
+export {};
